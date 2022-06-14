@@ -1,0 +1,116 @@
+.header {
+    &__wrapper {
+        padding: 24px 0 21px 0;
+        height: 144px;
+    }
+    @media (max-width: 1170px) {
+        &__wrapper {
+            height: 120px;
+        }
+    }
+    @media (max-width: 540px) {
+        &__wrapper {
+            height: 64px;
+        }
+    }
+    &__req-call {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 32px;
+        background-color: $brand-orange;
+        font-weight: 500;
+        color: #fff;
+        border:none;
+        &:hover {
+            background-color: $brand-yellow;
+            color: #0F0F10;
+        } 
+    }
+    &__phone {
+        width: 174px;
+        height: 24px;
+        align-items: center;
+        justify-content: space-between;
+        &-link {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            color: #0F0F10;
+            &:hover {
+                text-decoration: none;
+                color: #0F0F10;
+            } 
+        }
+        
+    }
+    &__mail {
+        width: 157px;
+        height: 24px;
+        align-items: center;
+        &-link {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: $brand-black;
+            &:hover {
+                text-decoration: none;
+                color: $brand-black
+            } 
+        }
+    }
+    &__profile {
+        padding: 8px 16px;
+        width: 163px;
+        height: 32px;
+        border: 1px solid #8A9099;
+        line-height: 20px;
+        font-weight: 400;
+        &:hover {
+            text-decoration: none;
+        }
+        img {
+            width: 16px;
+            height: 16px; 
+        }
+        @media (max-width: 992px) {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 24px;
+                height: 24px; 
+            }
+        }
+    }
+
+    &__menu {
+        margin: 32px 0 0 0;
+        height: 18px;
+        list-style-type:none;
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #0F0F10;
+            &:hover {
+                color: #0F0F10;
+                text-decoration: none;
+            }
+        }
+        &-dropdown {
+            margin-left: 4px;
+            margin-bottom: 2px;
+        }
+    }
+}
+

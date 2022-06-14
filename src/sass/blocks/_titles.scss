@@ -1,0 +1,25 @@
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: $text-black;
+    @media (max-width: 1170px) {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &_label {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: $brand-graylight;
+    }
+    &_partner {
+        color: $brand-black;
+    }
+    
+}

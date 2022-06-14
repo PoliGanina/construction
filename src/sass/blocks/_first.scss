@@ -1,0 +1,101 @@
+.first {
+    margin-top: 78px;
+    &__promo {
+        position: relative;
+    }
+    &__bg {
+        position: absolute;
+        width: 66vw;
+    }
+    &__list {
+        margin-top: 56px;
+        list-style-type: none;
+        &-item {
+            display: flex;
+            position: relative;
+            align-items: center;
+            width: 290px;
+            height: 44px;
+            padding-left: 24px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: $text-black;
+            &::before {
+                content: '';
+                height: 8px;
+                width: 8px;
+                position: absolute;
+                background-color: $brand-yellow;
+                left: 0;
+                top: 22px;
+                transform: translateY(-50%);
+                transition: 0.2s all;
+            }
+            &:hover {
+                background-color: $brand-purple;
+                transition: 0.2s all;
+                color: #fff;
+                text-decoration: none;
+                &::before {
+                    content: '';
+                    height: 44px;
+                    width: 8px;
+                    position: absolute;
+                    background-color: $brand-orange;
+                    left: 0;
+                    transition: 0.2s all;
+                }
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 219px;
+        @media(max-width: 1170px) {
+            margin-top: 76px;
+        }
+        @media(max-width: 768px) {
+            margin-top: 76px;
+        }
+    }
+    &__text {
+        padding-left: 32px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: $text-black;
+        position: relative;
+        &::before {
+            content: '';
+            height: 160px;
+            width: 8px;
+            position: absolute;
+            background-color: $brand-orange;
+            left: 15px;
+        }
+    }
+    &__label {
+        height: 108px;
+        background-color: $brand-purple;
+        position: relative;
+        &::before{
+            content: '';
+            height: 36px;
+            width: 36px;
+            background-color: $brand-yellow;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        &::after{
+            content: '';
+            height: 36px;
+            width: 36px;
+            background-color: $brand-orange;
+            position: absolute;
+            top: 36px;
+            right: 0;
+        }
+    }
+}
