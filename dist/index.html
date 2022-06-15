@@ -30,7 +30,7 @@
                         </div>
                         <div class='header__utilities d-flex'>
                             <img src="icons/burger.svg" alt="Меню" class= 'btn-burger d-flex d-md-none' data-toggle='modal' data-target="#modal_burger">
-                            <a href="#" class="header__profile d-none d-md-flex align-items-center justify-content-between">
+                            <a href="#" class="header__profile d-none d-md-flex align-items-center">
                                 <img src="./icons/login.svg" alt="Личный кабинет">
                                 <span class='d-none d-lg-flex'>Личный кабинет</span>
                             </a>
@@ -74,23 +74,21 @@
         <section class='first'>
             <div class="container">
                 <div class="row first__promo">
-                    <div class="col-3">
+                    <img class='first__bg' src="./images/mainpage1280.jpeg" alt="строитель" >
+                    <div class="col-12 col-md-3">
                         <h1 class='title'>Строителям</h1>
-                        <ul class='first__list'>
-                            <li><a class='first__list-item' href="#">Строителям</a></li>
-                            <li><a class='first__list-item'  href="#">Проектировщикам</a></li>
-                            <li><a class='first__list-item'  href="#">Поставщикам</a></li>
-                            <li><a class='first__list-item'  href="#">Производителям</a></li>
+                        <ul class='row first__list'>
+                            <li class="col-6 col-md-12"><a class='first__list-item' href="#">Строителям</a></li>
+                            <li class="col-6 col-md-12"><a class='first__list-item'  href="#">Проектировщикам</a></li>
+                            <li class="col-6 col-md-12"><a class='first__list-item'  href="#">Поставщикам</a></li>
+                            <li class="col-6 col-md-12"><a class='first__list-item'  href="#">Производителям</a></li>
                         </ul>
                     </div>
                     <div class="col-1 px-0"></div>
-                    <div class="col-7 px-0 justify-content-end">
-                        <img class='first__bg' src="./images/mainpage1280.jpeg" alt="строитель" >
-                    </div>
                 </div>
                 <div class="row first__wrapper">
                     <p class="first__text col-md-8 col-sm-12">Компания EVRAZ STEEL BUILDING приглашает партнеров, готовых выполнить полный цикл проектных и строительно-монтажных работ, поставщиков материалов и технологий для участия в тендерах на поставку продукции и услуг для реализации проектов на основе металлоконструкций.</p>
-                    <div class="first__label col-md-4 col-sm-12 justify-content-end align-items-start">
+                    <div class="first__label col-md-4 col-sm-12 d-flex align-items-center justify-content-center">
                         <h2 class="title title_label">Тендерная площадка</h2>
                     </div>
 
@@ -101,28 +99,31 @@
             <div class="container">
                 <h2 class='title title_partner'>Стать партнером</h2>
                 <form class="row form">
-                    <div class="col-3 d-flex flex-column">
-                        <label class='partner__form-label' for="name">Ваше имя:</label>
-                        <input class='partner__form-input' type="text" name='name' required>
+                    <div class="col-lg-3 col-12 d-flex flex-column">
+                        <label class='form__label' for="name">Ваше имя:</label>
+                        <input class='form__input' type="text" name='name' required>
                     </div>
-                    <div class="col-3 d-flex flex-column">
-                        <label class='partner__phone-label' for="phone">Контактный телефон:</label>
-                        <input class='partner__phone-input'  type="text" name='phone' required>
+                    <div class="col-lg-3 col-12 d-flex flex-column">
+                        <label class='form__label' for="phone">Контактный телефон:</label>
+                        <input class='form__input' type="text" name='phone' required>
                     </div>
-                    <div class="col-4 d-flex flex-column">
-                        <label class='partner__mail-label' for="mail">Ваша электронная почта:</label>
-                        <input class='partner__mail-input' type="text" name='mail' required>
+                    <div class="col-lg-4 col-12 d-flex flex-column">
+                        <label class='form__label' for="mail">Ваша электронная почта:</label>
+                        <input class='form__input' type="text" name='mail' required>
                     </div>
-                    <button class="btn col-2">Отправить</button>
-                </form>
-                <div class="row partner__">
-                    <div class=' col-6 partner__text'>Заполните форму обратной связи, мы обязательно свяжемся с Вами.</div>
-                    <div class=" col-6 d-flex align-items-center justify-content-end partner__personal-data">
-                        <input type="checkbox" name='check-box' required>
+                    <button class="btn_form align-content-end col-md-2 col-sm-12">Отправить
+                    </button>
+                    <div class="col-12 mgt-40 "></div>
+                    <div class=' col-lg-6 col-12 form__desrc'>Заполните форму обратной связи, мы обязательно свяжемся с Вами.
+                    </div>
+                    <label class="col-lg-6 col-12 check">
+                        <input class="check__input" type="checkbox" name='check-box' checked required>
+                        <span class="check__box"></span>
                         Я согласен с политикой обработки
                         <a href="#">персональных данных</a>
-                    </div>
-                </div>
+                    </label>
+                </form>
+                   
             </div>
         </section>
         <!-- <section class="advantage">

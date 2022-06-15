@@ -6,9 +6,10 @@
     @media (max-width: 1170px) {
         &__wrapper {
             height: 120px;
+            padding: 24px 0 14px 0;
         }
     }
-    @media (max-width: 540px) {
+    @media (max-width: 768px) {
         &__wrapper {
             height: 64px;
         }
@@ -69,6 +70,7 @@
         border: 1px solid #8A9099;
         line-height: 20px;
         font-weight: 400;
+        justify-content: space-between;
         &:hover {
             text-decoration: none;
         }

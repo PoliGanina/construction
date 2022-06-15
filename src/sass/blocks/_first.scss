@@ -1,15 +1,37 @@
 .first {
-    margin-top: 78px;
+    margin-top: 59px;
+    @media (max-width: 992px) {
+        margin-top: 32px;
+    }
     &__promo {
         position: relative;
+        justify-content: space-between;
     }
     &__bg {
         position: absolute;
+        top: 0;
+        right: 0;
         width: 66vw;
+        @media (max-width: 1170px) {
+            top: 64px;
+            width: 54vw;
+            min-width: 416px;
+        }
+        @media (max-width: 768px) {
+            top: 40px;
+            width: 72vw;
+            min-width: 260px;
+        }
     }
     &__list {
         margin-top: 56px;
         list-style-type: none;
+        @media (max-width: 992px) {
+            margin-top: 24px;
+        }
+        @media (max-width: 768px) {
+            margin-top: 170px;
+        }
         &-item {
             display: flex;
             position: relative;
@@ -22,6 +44,20 @@
             line-height: 24px;
             text-transform: uppercase;
             color: $text-black;
+            margin-bottom: 16px;
+            @media (max-width: 1170px) {
+                font-size: 16px;
+                width: 224px;
+                height: 40px;
+                margin-bottom: 8px;
+            }
+            @media (max-width: 768px) {
+                font-size: 14px;
+                line-height: 18px;
+                width: 156px;
+                height: 34px;
+                margin-bottom: 16px;
+            }
             &::before {
                 content: '';
                 height: 8px;
@@ -32,6 +68,12 @@
                 top: 22px;
                 transform: translateY(-50%);
                 transition: 0.2s all;
+                @media (max-width: 1170px) {
+                    top: 20px;;
+                }
+                @media (max-width: 768px) {
+                    top: 17px;
+                }
             }
             &:hover {
                 background-color: $brand-purple;
@@ -46,17 +88,26 @@
                     background-color: $brand-orange;
                     left: 0;
                     transition: 0.2s all;
+                    @media (max-width: 1170px) {
+                        height: 40px;
+                    }
+                    @media (max-width: 768px) {
+                        height: 34px;
+                    }
                 }
             }
+
+            
+            
         }
     }
     &__wrapper {
         margin-top: 219px;
         @media(max-width: 1170px) {
-            margin-top: 76px;
+            margin-top: 124px;
         }
         @media(max-width: 768px) {
-            margin-top: 76px;
+            margin-top: 31px;
         }
     }
     &__text {
@@ -66,19 +117,34 @@
         line-height: 32px;
         color: $text-black;
         position: relative;
+        @media(max-width: 992px) {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+        }
         &::before {
             content: '';
-            height: 160px;
+            height: 100%;
             width: 8px;
             position: absolute;
             background-color: $brand-orange;
             left: 15px;
         }
+        
     }
     &__label {
         height: 108px;
         background-color: $brand-purple;
         position: relative;
+        text-align: center;
+        padding-right: 36px;
+        padding-left: 0;
+        @media(max-width: 992px) {
+            height: 48px;
+        }
+        @media(max-width: 768px) {
+            height: 48px;
+        }
         &::before{
             content: '';
             height: 36px;
@@ -87,6 +153,10 @@
             position: absolute;
             top: 0;
             right: 0;
+            @media(max-width: 992px) {
+                height: 16px;
+                width: 16px;
+            }
         }
         &::after{
             content: '';
@@ -96,6 +166,12 @@
             position: absolute;
             top: 36px;
             right: 0;
+            @media(max-width: 992px) {
+                height: 16px;
+                width: 16px;
+                top: 16px;
+            }
         }
+
     }
 }
