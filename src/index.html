@@ -12,12 +12,12 @@
         <div class="container">
             <div class="row header__wrapper">
                 <div class='col-lg-4 d-none d-lg-block'>
-                    <a href="https://evrazsteelbuilding.ru/" class="logo"><img src="icons/logo.svg" alt="evraz steel building" style = 'width: 150'></a>
+                    <a href="https://evrazsteelbuilding.ru/" class="logo"><img src="icons/logo.svg" alt="evraz steel building"></a>
                 </div>
                 <div class='col-lg-8 col-sm-12'>
                     <div class='header__upline d-flex justify-content-between align-items-center'>
                         <a href="#" class='logo_mini d-lg-none d-flex justify-content-center align-items-center'>
-                            <img src="./icons/logo.svg" alt="evraz steel building" style="height: 100%; width: 100%">
+                            <img class='adaptive' src="./icons/logo.svg" alt="evraz steel building">
                         </a>
                         <button class='header__req-call'>Заказать обратный звонок</button>
                         <div class='header__phone d-md-flex d-none justify-content-between'>
@@ -98,7 +98,7 @@
         <section class="partner">
             <div class="container">
                 <h2 class='title title_partner'>Стать партнером</h2>
-                <form class="row form">
+                <form class="row form" id='partner-form'>
                     <div class="col-lg-3 col-12 d-flex flex-column">
                         <label class='form__label' for="name">Ваше имя:</label>
                         <input class='form__input' type="text" name='name' required>
@@ -117,7 +117,7 @@
                     <div class=' col-lg-6 col-12 form__desrc'>Заполните форму обратной связи, мы обязательно свяжемся с Вами.
                     </div>
                     <label class="col-lg-6 col-12 check">
-                        <input class="check__input" type="checkbox" name='check-box' checked required>
+                        <input class="check__input" type="checkbox" name='check-box'>
                         <span class="check__box"></span>
                         Я согласен с политикой обработки
                         <a href="#">персональных данных</a>
@@ -130,7 +130,7 @@
             <div class="container">
                 <h2 class='title title_small'>Наши <span class='title title_advantage'>партнеры</span> получают</h2>
                 <div class='row advantage__wrapper'>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">1</div>
@@ -140,7 +140,7 @@
                             <p class="advantage__description">Результат и качество работы партнера, лично заинтересованного в совместном успехе проекта, всегда выше. Поэтому для партнерских компаний действует система бонусов и поощрений.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">2</div>
@@ -149,7 +149,7 @@
                             <p class="advantage__description">Каждый партнер получает упоминание EVRAZ STEEL BUILDING. Предоставляются рекламные материалы, брендированная сувенирная продукция для клиентов, а также возможность участия в отраслевых мероприятиях.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">3</div>
@@ -158,7 +158,7 @@
                             <p class="advantage__description">При необходимости мы поможем провести оптимизацию проектных решений, в реализации которых задействована партнерская компания.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">4</div>
@@ -168,7 +168,7 @@
                             <p class="advantage__description">На проекты, которые спроектированы, изготовлены и поставлены компанией EVRAZ STEEL BUILDING, выдается расширенная гарантия.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">5</div>
@@ -177,7 +177,7 @@
                             <p class="advantage__description">Мы подготовим наглядные изображения будущего объекта для ваших клиентов.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">6</div>
@@ -186,7 +186,7 @@
                             <p class="advantage__description">Мы осуществим оперативный контроль за ходом строительства, проведем организационно-техническое и хозяйственное сопровождение монтажа строительного объекта, а также окажем поддержку на каждом этапе строительства.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">7</div>
@@ -195,7 +195,7 @@
                             <p class="advantage__description">Графики поставки точно выполняются за счет применения цифровых способов управления реализацией проектов и включения в работу широкой сети ЗМК и СМЦ по всей России.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 col-lg-4">
+                    <div class=" col-12 col-md-6 col-lg-4 animate__animated animate__fadeInUp wow" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">8</div>
@@ -204,7 +204,7 @@
                             <p class="advantage__description">Нам важно, чтобы монтаж наших конструкций и объектов выполняли профессионалы, поэтому мы проводим обучение и сертификацию партнерских компаний и их сотрудников, даем экспертные консультации при необходимости.</p>
                         </div>
                     </div>
-                    <div class=" col-12 col-lg-4 d-flex justify-content-center">
+                    <div class="col-12 col-lg-4 animate__animated animate__fadeInUp wow center" data-wow-duration="2s"">
                         <div class="advantage__item">
                             <div class="advantage__head d-flex align-items-center">
                                 <div class="advantage__index">9</div>
@@ -218,46 +218,171 @@
         </section>
         <section class="news">
             <div class="container">
-                <div class="row">
-                    <h2>Новости партнеров</h2>
-                    <div class="navig">
-                        <div class="navig__back"></div>
-                        <div class="navig__front"></div>
+                <div class="row d-flex justify-content-between justify-content-center news__header">
+                    <h2 class="title">Новости партнеров</h2>
+                    <div class="news__navig">
                     </div>
                 </div>
-                <div class="row">  
-                </div>
-                
-                
+                <div class="row slider">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="slider__item">
+                            <div class="slider__header">
+                                Генеральный директор EVRAZ STEEL BUILDING Владислав Васильев на MosBuild-2022
+                            </div>
+                            <div class="slider__content">
+                                <img src='./images/news1.jpeg' class="slider__img">
+                                <div class="slider__text"> 31 марта, в рамках международной выставки строительных и отделочных материалов MosBuild, прошёл круглый стол, организованный «Строительной...
+                                    <btn class="btn btn_more">Подробнее</btn>
+                                </div>
+                            </div>
+                            <div class="slider__tags">
+                                <div class="tag tag_date">1 апреля, 15:11</div>
+                                <div class="tag">Проекты</div> 
+                                <div class="tag">C площадок</div>
+                                <div class="tag">Экспертное мнение</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="slider__item">
+                            <div class="slider__header">
+                                Генеральный директор EVRAZ STEEL BUILDING Владислав Васильев на MosBuild-2022
+                            </div>
+                            <div class="slider__content">
+                                <img src='./images/news1.jpeg' class="slider__img">
+                                <div class="slider__text"> 31 марта, в рамках международной выставки строительных и отделочных материалов MosBuild, прошёл круглый стол, организованный «Строительной...
+                                    <btn class="btn btn_more">Подробнее</btn>
+                                </div>
+                            </div>
+                            <div class="slider__tags">
+                                <div class="tag tag_date">1 апреля, 15:11</div>
+                                <div class="tag">Проекты</div> 
+                                <div class="tag">C площадок</div>
+                                <div class="tag">Экспертное мнение</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="slider__item">
+                            <div class="slider__header">
+                                Генеральный директор EVRAZ STEEL BUILDING Владислав Васильев на MosBuild-2022
+                            </div>
+                            <div class="slider__content">
+                                <img src='./images/news1.jpeg' class="slider__img">
+                                <div class="slider__text"> 31 марта, в рамках международной выставки строительных и отделочных материалов MosBuild, прошёл круглый стол, организованный «Строительной...
+                                    <btn class="btn btn_more">Подробнее</btn>
+                                </div>
+                            </div>
+                            <div class="slider__tags">
+                                <div class="tag tag_date">1 апреля, 15:11</div>
+                                <div class="tag">Проекты</div> 
+                                <div class="tag">C площадок</div>
+                                <div class="tag">Экспертное мнение</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="slider__item">
+                            <div class="slider__header">
+                                Генеральный директор EVRAZ STEEL BUILDING Владислав Васильев на MosBuild-2022
+                            </div>
+                            <div class="slider__content">
+                                <img src='./images/news1.jpeg' class="slider__img">
+                                <div class="slider__text"> 31 марта, в рамках международной выставки строительных и отделочных материалов MosBuild, прошёл круглый стол, организованный «Строительной...
+                                    <btn class="btn btn_more">Подробнее</btn>
+                                </div>
+                            </div>
+                            <div class="slider__tags">
+                                <div class="tag tag_date">1 апреля, 15:11</div>
+                                <div class="tag">Проекты</div> 
+                                <div class="tag">C площадок</div>
+                                <div class="tag">Экспертное мнение</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> 
             </div>
         </section>
-
+        <section class="seo">
+            <div class="container">
+                <p class='seo__text'>Компания EVRAZ STEEL BUILDING – это платформа, объединяющая участников реализации строительства индустриальных объектов. Мы предлагаем тщательно проработанные конструкторские решения, выверенные процессы ведения проектов, взаимодействие с надежными и проверенными партнерами. Как каркас здания работает на поддержание всего сооружения, так и наша компания организует весь процесс реализации объектов под ключ, контролирует его и управляет всеми этапами и действиями участников.<br>
+                Отлаженная технология и процессы производства обеспечивают заказчику быстрый возврат инвестиций, который так важен для запуска индустриальных проектов. Кроме того, в составе холдинга ЕВРАЗ, одного из крупнейших производителей стали в мире, EVRAZ STEEL BUILDING предоставляет фиксированную цену на металлокаркас сроком до 180 дней, независимо от изменения цен на рынке.<br class="d-md-none">
+                Каждый проект с EVRAZ STEEL BUILDING строится на решениях, создаваемых собственным инжиниринговым центром компании. Для разработки применяются эксклюзивные плагины САПР и BIM-технологии. Это дает возможность не только сократить сроки проектирования и уменьшить количество возможных ошибок, но и позволяет оперативно внести необходимые изменения в проект.
+                К нам обращаются за экспертной помощью в строительстве зданий, которые будут решать конкретные бизнес-задачи клиента. Наша команда гарантирует надежность всех операций и контролирует качество материалов и работ.</p>
+            </div>
+        </section>
     </main>
-    <!-- <footer>
+    <footer class='footer'>
         <div class="container">
-            <div class="row">
-                <div class='col-md col-lg'>
-                        <div class='logo-footer col-4 col-md-12 d-flex align-items-center'>
-                            <img src="icons/logo.svg" alt="logo">
-                        </div>
-                        <div class="logo-text col-8 col-md-12">Строительный и инжиниринговый центр</div>
-                </div>
-                <div class='col-md col-lg'>
+            <div class='row'>
+                <div class="col-md col-lg">
                     <div class="row">
-                        
+                        <div class='logo_footer col-4 col-md-12'>
+                            <img class='adaptive' src="./icons/logo.svg" alt="логотип">
+                        </div>
+                        <h2 class='title_logo col-8 col-md-12'>Строительный и инжиниринговый центр</h2>
                     </div>
                 </div>
-                <div class='col-md col-lg'></div>
-                <div class='col-lg col-md lists-contact-information'></div>
-                <div class='col-lg-1 d-lg-block d-none'></div>
+                <div class="col-md col-lg">
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Сервисы</a></li>
+                        <li><a href="#" class="footer__link">О компании</a></li>
+                        <li><a href="#" class="footer__link">Новости компании</a></li>
+                        <li><a href="#" class="footer__link">Партнерам</a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-lg">
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Документация</a></li>
+                        <li><a href="#" class="footer__link">Реквизиты</a></li>
+                        <li><a href="#" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md col-lg">
+                    <ul class="footer__contacts">
+                        <li>
+                            <img src="./icons/Message_light.svg" alt="почта">
+                            <a href="#" class="footer__link">info@evrazsteel.ru</a></li>
+                        <li>
+                            <img src="./icons/phone.svg" alt="телефон">
+                            <a href="#" class="footer__link">+7 (499) 647 47 77</a></li>
+                        <li>
+                            <img src="./icons/location.svg" alt="адрес">
+                            <a href="#" class="footer__link">115114, Россия, Москва, Летниковская улица, 10с4</a></li>
+                    </ul>
+                </div>
+                <div class="d-none d-lg-block col-lg-1">
+                    <div class="footer__social">
+                        <a href="#"><img src="./icons/vk.svg" alt="Вконтакте"></a>
+                        <a href="#"><img src="./icons/telegram.svg" alt="Телеграм"></a>
+                        <a href="#"><img src="./icons/ok.svg" alt="Одноклассники"></a>
+                    </div>
+                </div> 
             </div>
-            <div class="row"></div>
-
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class='title title_footer'>© 2022 ООО "ЕВРАЗ СТИЛ БИЛДИНГ"</h2>
+                </div>
+                <div class="col-12 col-md-6 d-lg-none">
+                    <div class="footer__social">
+                        <a href="#"><img src="./icons/vk.svg" alt="Вконтакте"></a>
+                        <a href="#"><img src="./icons/telegram.svg" alt="Телеграм"></a>
+                        <a href="#"><img src="./icons/ok.svg" alt="Одноклассники"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    </footer> -->
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src='js/slick.min.js'></script>
+    <script src='js/jquery.validate.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src='js/wow.min.js'></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,44 @@
+.slider {
+    margin-top: 48px;
+    &__item {
+        max-width: 389px;
+        min-width: 327px;
+    }
+    &__header {
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $text-black;
+        @media (max-width: 991px) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 24px 0;
+    }
+    &__img {
+        height: 100%;
+        width: calc(50% - 12px);
+    }
+    &__text {
+        height: 100%;
+        width: calc(50% - 12px);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: $text-black;
+        letter-spacing: 0.02em;
+    }
+    &__tags {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

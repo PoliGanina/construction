@@ -1,11 +1,19 @@
 @import 'libs/bootstrap.min.scss';
+@import 'libs/animate';
+@import 'libs/slick';
 
+
+
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
 @import 'base/fonts';
 
+/* base*/
 @import 'base/variables';
 @import 'base/general';
 
+
+/* components */
 @import 'blocks/header';
 @import 'blocks/logo';
 @import 'blocks/titles';
@@ -14,3 +22,8 @@
 @import 'blocks/form';
 @import 'blocks/buttons';
 @import 'blocks/advantage';
+@import 'blocks/news';
+@import 'blocks/slider';
+@import 'blocks/tags';
+@import 'blocks/seo';
+@import 'blocks/footer';

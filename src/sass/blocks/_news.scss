@@ -1,0 +1,42 @@
+.news {
+    margin-top: 120px; 
+    @media (max-width: 991px) {
+        margin-top: 70px;
+    }
+    &__navig {
+        display: flex;
+        &-left {
+            width: 80px;
+            height: 80px;
+            background-color: $brand-orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media (max-width: 991px) {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &-right {
+            width: 80px;
+            height: 80px;
+            background-color: $brand-purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media (max-width: 991px) {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &-icon {
+            width: 40px;
+            height: 40px;
+            @media (max-width: 991px) {
+                width: 10px;
+                height: 10px;
+            }
+        }
+
+    }
+}

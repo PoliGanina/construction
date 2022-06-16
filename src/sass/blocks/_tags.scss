@@ -1,0 +1,15 @@
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    border: 1px solid #CFDBEA;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: $brand-purple;
+    &_date {
+        background-color: $brand-graylight;
+    }
+}
