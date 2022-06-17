@@ -8,5 +8,14 @@
     &_footer {
         width: 100px;
         height: 66px;
+        @media (max-width:991px) {
+            width: 48px;
+            height: 32px;
+        }
+        @media (max-width:767px) {
+            width: 100px;
+            height: 66px;
+        }
+
     }
 }

@@ -9,9 +9,11 @@
     box-sizing: border-box;
     color: $text-black;
 }
-.adaptive {
-    width: 100%;
+.adaptive-height {
     height: 100%;
+}
+.adaptive-width {
+    width: 100%;
 }
 .center {
     display: flex;
