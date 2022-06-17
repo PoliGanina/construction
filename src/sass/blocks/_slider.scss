@@ -1,5 +1,22 @@
 .slider {
     margin-top: 48px;
+    &__wrapper {
+        &:nth-child(3) {
+            @media (max-width:991px) {
+                margin-top: 56px;
+            }
+        }
+        &:nth-child(4) {
+            @media (max-width:991px) {
+                margin-top: 56px;
+            }
+        }
+        &:not(:first-child) {
+            @media (max-width:767px) {
+                margin-top: 40px;
+            }
+        }
+    }
     &__item {
         max-width: 389px;
         min-width: 327px;

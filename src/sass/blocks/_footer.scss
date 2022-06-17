@@ -35,6 +35,64 @@
     &__icon {
         margin-right: 8px;
     }
+    &__email {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        color: $brand-black;
+        &:hover {
+            color: $brand-black;
+        }
+        @media (max-width: 991px) {
+            font-size: 15px;
+            line-height: 17px;
+        }
+        @media (max-width: 767px) {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    &__phone {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: $brand-black;
+        &:hover {
+            color: $brand-black;
+        }
+        @media (max-width: 991px) {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        @media (max-width: 767px) {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    &__address {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: $brand-black;
+        &:hover {
+            color: $brand-black;
+        }
+        @media (max-width: 991px) {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 17px;
+        }
+        @media (max-width: 767px) {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 17px;
+        }
+    }
     &__bottom {
         margin-top: 88px;
         @media (max-width: 991px) {
@@ -53,11 +111,25 @@
                     margin-top: 0;
                     margin-left: 16px;
                 }
+                @media (max-width: 767px) {
+                    margin-left: 8px;
+                }
             }
         }
         &-md {
             display: flex;
             flex-direction: row;
+        }
+    }
+    &__contacts {
+        &:not(:first-of-type) {
+            margin-top: 48px;
+            @media (max-width: 991px) {
+                margin-top: 24px;
+            }
+            @media (max-width: 767px) {
+                margin-top: 34px;
+            }
         }
     }
 }

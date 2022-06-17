@@ -10,12 +10,7 @@ $(document).ready(function(){
         responsive: [
             {
                 breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
+                settings: 'unslick'
             },
             {
                 breakpoint: 767,
