@@ -1,6 +1,6 @@
 .first {
     margin-top: 59px;
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
         margin-top: 32px;
     }
     &__promo {
@@ -26,7 +26,7 @@
     &__list {
         margin-top: 56px;
         list-style-type: none;
-        @media (max-width: 992px) {
+        @media (max-width: 99spx) {
             margin-top: 24px;
         }
         @media (max-width: 768px) {
@@ -117,7 +117,7 @@
         line-height: 32px;
         color: $text-black;
         position: relative;
-        @media(max-width: 992px) {
+        @media(max-width: 991px) {
             font-weight: 400;
             font-size: 14px;
             line-height: 18px;
@@ -139,7 +139,7 @@
         text-align: center;
         padding-right: 36px;
         padding-left: 0;
-        @media(max-width: 992px) {
+        @media(max-width: 991px) {
             height: 48px;
         }
         @media(max-width: 768px) {
@@ -153,7 +153,7 @@
             position: absolute;
             top: 0;
             right: 0;
-            @media(max-width: 992px) {
+            @media(max-width: 991px) {
                 height: 16px;
                 width: 16px;
             }
@@ -166,7 +166,7 @@
             position: absolute;
             top: 36px;
             right: 0;
-            @media(max-width: 992px) {
+            @media(max-width: 991px) {
                 height: 16px;
                 width: 16px;
                 top: 16px;

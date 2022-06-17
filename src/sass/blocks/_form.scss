@@ -12,7 +12,7 @@
         height: 48px;
         background-color: #fff;
         border: none;
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
             margin-bottom: 16px;
         }
     }
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
         padding: 8px;
         justify-content: start;
     }
@@ -51,7 +51,7 @@
         background: url(../icons/check.svg);
         width: 14px;
         height: 14px;
-        @media (max-width:992px) {
+        @media (max-width:991px) {
             width: 24px;
             height: 24px;
             background: url(../icons/checkmini.svg);
@@ -64,7 +64,7 @@
         width: 14px;
         height: 14px;
         background: #fff;
-        @media (max-width:992px) {
+        @media (max-width:991px) {
             width: 24px;
             height: 24px;
         }

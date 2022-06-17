@@ -18,14 +18,14 @@
         font-size: 24px;
         line-height: 32px;
         color: $brand-graylight;
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
             font-size: 14px;
         }
     }
     &_partner {
         color: $brand-black;
         margin-bottom: 40px;
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
             margin-bottom: 24px;
         }
     }
@@ -39,20 +39,40 @@
     }
     &_logo {
         width: 123px;
-        height: 60px;
         margin-top: 36px;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
         color: $brand-black;
+        @media (max-width: 991px) {
+            width: 88px;
+            font-size: 10px;
+            line-height: 12px;
+        }
+        @media (max-width: 767px) {
+            margin: 0;
+            width: 140px;
+            font-size: 16px;
+            line-height: 22px;
+        }
     }
     &_footer {
+        margin-bottom: 0;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         color: $brand-black;
         text-transform: uppercase;
+        @media (max-width: 991px) {
+            font-size: 10px;
+            line-height: 17px;
+            align-self: flex-end;
+        }
+        @media (max-width: 767px) {
+            font-size: 10px;
+            line-height: 17px;
+        }
     }
     
 }

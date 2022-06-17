@@ -4,10 +4,17 @@
         margin-top: 56px;
     }
     &__list {
+        margin: 0;
         list-style-type: none;
         &-item {
             &:not(:first-of-type) {
                 margin-top: 51px;
+                @media (max-width: 991px) {
+                    margin-top: 16px;
+                }
+                @media (max-width: 767px) {
+                    margin-top: 32px;
+                }
             }
         }
     }
@@ -21,14 +28,39 @@
         &:hover {
             color: $brand-black;
         }
+        @media (max-width: 991px) {
+            font-family: 'Gilroy';
+        }
     }
     &__icon {
         margin-right: 8px;
     }
     &__bottom {
         margin-top: 88px;
+        @media (max-width: 991px) {
+            margin-top: 32px;
+            display: flex;
+        }
     }
-    &__social-link {
-        
+    &__social {
+        &-link {
+            width: 40px;
+            height: 40px;
+            background-color: $brand-purple;
+            &:not(:first-of-type) {
+                margin-top: 24px;
+                @media (max-width: 991px) {
+                    margin-top: 0;
+                    margin-left: 16px;
+                }
+            }
+        }
+        &-md {
+            display: flex;
+            flex-direction: row;
+        }
     }
+}
+.mb-32 {
+    margin-bottom: 32px;
 }
