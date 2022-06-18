@@ -11,15 +11,6 @@ $(document).ready(function(){
             {
                 breakpoint: 991,
                 settings: 'unslick'
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false
-                }
             }
         ]
         
