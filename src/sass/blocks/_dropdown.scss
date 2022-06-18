@@ -1,0 +1,28 @@
+.dropdown {
+    display: none;
+    height: 100px;
+    margin-top: 32px;
+    border-bottom: 2px solid $brand-graylight;
+    &-active {
+        display: block;
+        transition: 0.2s all;
+    }
+    &__text {
+        font-weight: 500;
+        line-height: 18px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #0f0f10;
+    }
+    // &__curtain {
+    //     position: absolute;
+    //     z-index: 999;
+    //     top: 100%;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     background: #000;
+    //     opacity: .5;
+    //     height: 100vh;
+    //     width: 100vw;
+    // }
+}

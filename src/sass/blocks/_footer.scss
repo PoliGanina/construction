@@ -18,6 +18,11 @@
             }
         }
     }
+    &__contacts-list {
+        justify-self: flex-end;
+        margin: 0;
+        list-style-type: none;
+    }
     &__link {
         font-family: 'Roboto';
         font-style: normal;
@@ -36,6 +41,7 @@
         margin-right: 8px;
     }
     &__email {
+        position: relative;
         font-family: 'Roboto';
         font-weight: 400;
         font-size: 15px;
@@ -95,9 +101,12 @@
     }
     &__bottom {
         margin-top: 88px;
+        margin-bottom: 70px;
         @media (max-width: 991px) {
             margin-top: 32px;
             display: flex;
+            margin-bottom: 50px;
+
         }
     }
     &__social {
@@ -134,5 +143,7 @@
     }
 }
 .mb-32 {
-    margin-bottom: 32px;
+    @media (max-width: 767px) {
+        margin-bottom: 32px;
+    }
 }

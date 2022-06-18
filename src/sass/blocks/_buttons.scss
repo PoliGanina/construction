@@ -8,6 +8,9 @@
         background-color:$brand-purple;
         border: 0;
         margin-top: 26px;
+        &:hover {
+            box-shadow: 5px 5px 13px -5px rgba(124, 127, 129, 0.6);
+        }
         @media (max-width: 991px) {
             position: absolute;
             bottom: 14px;

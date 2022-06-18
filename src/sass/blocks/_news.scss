@@ -15,6 +15,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
+            &:hover {
+                .news__navig-icon {
+                    transform: scale(1.1);
+                    transition: 0.3s transform;
+                }
+            }
             @media (max-width: 991px) {
                 width: 40px;
                 height: 40px;
@@ -27,6 +34,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
+            &:hover {
+                .news__navig-icon {
+                    transform: scale(1.1);
+                    transition: 0.3s transform;
+                }
+            }
             @media (max-width: 991px) {
                 width: 40px;
                 height: 40px;
@@ -40,6 +54,5 @@
                 height: 10px;
             }
         }
-
     }
 }
