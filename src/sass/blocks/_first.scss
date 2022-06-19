@@ -1,10 +1,11 @@
 .first {
-    margin-top: 56px;
+    z-index: -1;
+    margin-top: 203px;
     @media (max-width: 991px) {
-        margin-top: 32px;
+        margin-top: 152px;
     }
     @media (max-width: 767px) {
-        margin-top: 16px;
+        margin-top: 80px;
     }
     &__promo {
         position: relative;

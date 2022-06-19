@@ -48,4 +48,8 @@ $(document).ready(function(){
 
     new WOW().init();
 
+    $('.dropdown-btn').on('click', () => {
+        $('.dropdown').toggleClass('dropdown-active');
+        $('.body').toggleClass('fixed__page');
+    });
   });

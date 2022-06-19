@@ -1,9 +1,21 @@
 .header {
-    padding: 24px 0 21px 0;
-    @media (max-width: 1169px) {
-        padding: 24px 0 14px 0;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: -203px;
+    left:0;
+    background-color: #fff;
+    @media (max-width: 991px) {
+        top: -152px;
     }
     @media (max-width: 767px) {
+        top: -80px;
+    }
+    &__static {
+        padding: 24px 0 21px 0;
+        @media (max-width: 1169px) {
+            padding: 24px 0 14px 0;
+        }
     }
     &__req-call {
         display: flex;
@@ -95,6 +107,7 @@
             text-align: center;
             text-transform: uppercase;
             color: #0F0F10;
+            cursor: pointer;
             &:hover {
                 color: #0F0F10;
                 text-decoration: none;
