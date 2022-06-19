@@ -11,7 +11,7 @@ $(document).ready(function(){
         draggable: false,
         responsive: [
             {
-                breakpoint: 991,
+                breakpoint: 992,
                 settings: 'unslick'
             }
         ]
@@ -57,7 +57,5 @@ $(document).ready(function(){
         $('.body').toggleClass('fixed__page');
         $('.btn_burger').toggleClass('btn_close');
     });
-
-    $('.collapse').collapse();
 
   });
