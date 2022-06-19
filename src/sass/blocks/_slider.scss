@@ -21,6 +21,9 @@
         max-width: 389px;
         min-width: 327px;
         padding: 0 5px;
+        @media (max-width:767px) {
+            padding: 0;
+        }
     }
     &__header {
         width: 100%;

@@ -24,10 +24,6 @@
     }
 }
 .check {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: $brand-graydark;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -35,13 +31,15 @@
         padding: 8px;
         justify-content: start;
     }
+    @media (max-width: 767px) {
+        margin-top: 16px;
+    }
     a {
         color: $brand-orange;
         cursor: pointer;
         font-weight: 400;
         font-size: 12px;
         line-height: 16px;
-        margin-left: 8px;
     }
     &__input{
         margin-right: 8px;
@@ -68,6 +66,17 @@
             width: 24px;
             height: 24px;
         }
+        @media (max-width: 991px) {
+            display: block;
+        }
+    }
+    &__label {
+        margin: 0;
+        margin-left: 14px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $brand-graydark;
     }
 }
 .mgt-40 {

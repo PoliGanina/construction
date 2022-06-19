@@ -52,7 +52,7 @@ $(document).ready(function(){
     });
 
 
-    $('.btn_burger').on('click', ()=> {
+    $('.btn_burger').on('click', () => {
         $('.mobile-menu').toggleClass('mobile-menu-active');
         $('.body').toggleClass('fixed__page');
         $('.btn_burger').toggleClass('btn_close');
