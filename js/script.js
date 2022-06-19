@@ -58,4 +58,6 @@ $(document).ready(function(){
         $('.btn_burger').toggleClass('btn_close');
     });
 
+    $('.collapse').collapse();
+
   });
