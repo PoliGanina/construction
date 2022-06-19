@@ -29,7 +29,7 @@
                             <a class='header__mail-link' href="mailto:info@evrazsteel.ru">info@evrazsteel.ru</a>
                         </div>
                         <div class='header__utilities d-flex'>
-                            <img src="icons/burger.svg" alt="Меню" class= 'btn-burger d-flex d-md-none' data-toggle='modal' data-target="#modal_burger">
+                            <button src="icons/burger.svg" alt="Меню" class= 'btn_burger d-flex d-md-none'>
                             <a href="#" class="header__profile d-none d-md-flex align-items-center">
                                 <img src="./icons/login.svg" alt="Личный кабинет">
                                 <span class='d-none d-lg-flex'>Личный кабинет</span>
@@ -80,7 +80,52 @@
             </div>
         </div> 
         <nav class="mobile-menu">
-
+          <div class="container">
+            <a href="#" class="mobile-menu__profile d-flex justify-content-between align-items-center">
+              <img src="./icons/login.svg" alt="Личный кабинет">
+              <span class='d-flex'>Личный кабинет</span>
+            </a>
+            <ul class='mobile-menu__ul'>
+                <li class='mobile-menu__li'>
+                    <a class='mobile-menu__item' href='#' data-toggle="collapse" data-target="#mobile_menu_about" aria-expanded="false">О компании
+                    </a>
+                    <div class="collapse" id="#mobile_menu_about">
+                      <div class="card card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                      </div>
+                    </div>
+                </li>
+                <li class='mobile-menu__li'>
+                    <a class='mobile-menu__item' href='#' data-toggle="collapse" data-target="#mobile_menu_about" aria-expanded="false">Сервисы
+                    </a>
+                </li>
+                <li class='mobile-menu__li'>
+                    <a class='mobile-menu__item' href='#' data-toggle="collapse" data-target="#mobile_menu_about" aria-expanded="false">Здания
+                    </a>
+                </li>
+                <li class='mobile-menu__li'>
+                    <a class='mobile-menu__item' href="#">Реализованные проекты
+                    </a>
+                </li>
+                <li class='mobile-menu__li'>
+                    <a class='mobile-menu__item' href="#">Партнеры
+                    </a>
+                </li>
+                <li class='mobile-menu__li'>
+                    <a class='mobile-menu__item' href="#">Контакты
+                    </a>
+                </li>
+            </ul>
+            <div class='mobile-menu__contacts d-flex justify-content-center'>
+                <img src="icons/phone.svg" alt="phone">
+                <a class='mobile-menu__phone' href="tel:+74950216422">+7 (495) 021-64-22</a>
+            </div>
+            <div class='mobile-menu__contacts d-flex justify-content-center'>
+                <img src="icons/Message_light.svg" alt="mail">
+                <a class='mobile-menu__mail' href="mailto:info@evrazsteel.ru">info@evrazsteel.ru</a>
+            </div>
+          </div>
+          <div class="mobile-menu__curtain"></div>
         </nav>    
     </header>
     <main class='main'>

@@ -1,5 +1,7 @@
 $(document).ready(function(){
- 
+     /* wow animate library */
+    new WOW().init();
+
     $('.slider').slick({
         appendArrows: $('.news__navig'),
         prevArrow: '<div class="news__navig-left"><img class="news__navig-icon" src="./icons/left.svg" alt="иконка назад"></div>',
@@ -13,7 +15,6 @@ $(document).ready(function(){
                 settings: 'unslick'
             }
         ]
-        
     })
 
     function validateForm(form) {
@@ -41,15 +42,20 @@ $(document).ready(function(){
             },
         });
     };
-
     validateForm('#partner-form');
-
     $('input[name=phone]').mask("+7 (999) 999-99-99");
 
-    new WOW().init();
-
+    
     $('.dropdown-btn').on('click', () => {
         $('.dropdown').toggleClass('dropdown-active');
         $('.body').toggleClass('fixed__page');
     });
+
+
+    $('.btn_burger').on('click', ()=> {
+        $('.mobile-menu').toggleClass('mobile-menu-active');
+        $('.body').toggleClass('fixed__page');
+        $('.btn_burger').toggleClass('btn_close');
+    });
+
   });
