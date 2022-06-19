@@ -43,6 +43,9 @@
     &__img {
         height: 100%;
         width: calc(50% - 12px);
+        @media (max-width: 991px) {
+            width: calc(50% - 5px);
+        }
     }
     &__text {
         height: 100%;

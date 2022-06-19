@@ -80,10 +80,10 @@
                     top: 17px;
                 }
             }
-            &:hover {
+            &:hover, &:active, &:focus {
                 background-color: $brand-purple;
                 transition: 0.2s all;
-                color: #fff;
+                color: $text-white;
                 text-decoration: none;
                 &::before {
                     content: '';

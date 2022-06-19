@@ -10,7 +10,7 @@
     }
     &__input {
         height: 48px;
-        background-color: #fff;
+        background-color: $text-white;
         border: none;
         @media (max-width: 991px) {
             margin-bottom: 16px;
@@ -63,7 +63,7 @@
         margin-right: 8px;
         width: 14px;
         height: 14px;
-        background: #fff;
+        background: $text-white;
         @media (max-width:991px) {
             width: 24px;
             height: 24px;

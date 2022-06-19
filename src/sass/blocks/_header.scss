@@ -4,7 +4,7 @@
     width: 100%;
     top: -203px;
     left:0;
-    background-color: #fff;
+    background-color: $text-white;
     @media (max-width: 991px) {
         top: -152px;
     }
@@ -25,11 +25,11 @@
         height: 32px;
         background-color: $brand-orange;
         font-weight: 500;
-        color: #fff;
+        color: $text-white;
         border:none;
-        &:hover {
+        &:hover, &:active, &:focus {
             background-color: $brand-yellow;
-            color: #0F0F10;
+            color: $text-black;
         } 
     }
     &__phone {
@@ -41,10 +41,10 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 20px;
-            color: #0F0F10;
-            &:hover {
+            color: $text-black;
+            &:hover, &:active, &:focus {
                 text-decoration: none;
-                color: #0F0F10;
+                color: $text-black;
             } 
         }
         
@@ -60,7 +60,7 @@
             font-size: 15px;
             line-height: 17px;
             color: $brand-black;
-            &:hover {
+            &:hover, &:active, &:focus{
                 text-decoration: none;
                 color: $brand-black
             } 
@@ -74,7 +74,7 @@
         line-height: 20px;
         font-weight: 400;
         justify-content: space-between;
-        &:hover {
+        &:hover, &:active, &:focus {
             text-decoration: none;
         }
         img {
@@ -106,10 +106,10 @@
             line-height: 18px;
             text-align: center;
             text-transform: uppercase;
-            color: #0F0F10;
+            color: $text-black;
             cursor: pointer;
-            &:hover {
-                color: #0F0F10;
+            &:hover, &:active, &:focus {
+                color: $text-black;
                 text-decoration: none;
             }
         }

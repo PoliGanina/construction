@@ -14,7 +14,7 @@
         border: 1px solid $brand-graylight;
         font-weight: 400;
         justify-content: space-between;
-        &:hover {
+        &:hover, &:active, &:focus {
             text-decoration: none;
         }
         img {
@@ -35,7 +35,7 @@
         font-size: 16px;
         line-height: 16px;
         color: $text-black;
-        &:hover {
+        &:hover, &:active, &:focus{
             color: $text-black;
         }
     }
@@ -61,7 +61,7 @@
         font-weight: 400;
         justify-content: space-between;
         color: $text-black;
-        &:hover {
+        &:hover, &:active, &:focus {
             color: $text-black;
         }
     }
@@ -72,7 +72,7 @@
         font-weight: 400;
         justify-content: space-between;
         color: $text-black;
-        &:hover {
+        &:hover, &:active, &:focus {
             color: $text-black;
         }
     }

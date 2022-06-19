@@ -30,7 +30,7 @@
         font-size: 14px;
         line-height: 17px;
         color: $brand-black;
-        &:hover {
+        &:hover, &:active, &:focus {
             color: $brand-black;
         }
         @media (max-width: 991px) {
@@ -47,7 +47,7 @@
         font-size: 15px;
         line-height: 17px;
         color: $brand-black;
-        &:hover {
+        &:hover, &:active, &:focus {
             color: $brand-black;
         }
         @media (max-width: 991px) {
@@ -64,7 +64,7 @@
         font-size: 18px;
         line-height: 20px;
         color: $brand-black;
-        &:hover {
+        &:hover, &:active, &:focus {
             color: $brand-black;
         }
         @media (max-width: 991px) {
@@ -83,7 +83,7 @@
         font-size: 14px;
         line-height: 17px;
         color: $brand-black;
-        &:hover {
+        &:hover, &:active, &:focus {
             color: $brand-black;
         }
         @media (max-width: 991px) {
